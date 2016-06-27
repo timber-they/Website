@@ -1,0 +1,2142 @@
+@font-face {
+  font-family: KievitWebPro-Light;
+  src: url("fonts/KievitWebPro-Light.eot");
+}
+
+@font-face {
+  font-family: KievitWebPro-Light;
+  src: url("fonts/KievitWebPro-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: KievitWebPro;
+  src: url("fonts/KievitWebPro.eot");
+}
+
+@font-face {
+  font-family: KievitWebPro;
+  src: url("fonts/KievitWebPro.woff") format("woff");
+}
+
+@font-face {
+  font-family: KievitWebPro-Bold;
+  src: url("fonts/KievitWebPro-Bold.eot");
+}
+
+@font-face {
+  font-family: KievitWebPro-Bold;
+  src: url("fonts/KievitWebPro-Bold.woff") format("woff");
+}
+
+/* line 1, ../../../tmp/firefox/css/__theme.scss */
+.dash-container {
+  background-color: rgba(74, 74, 74, 0.95);
+  color: white;
+}
+
+/* line 8, ../../../tmp/firefox/css/__theme.scss */
+.state-dash.indicators-container,
+.state-hidden_bar.indicators-container {
+  background-color: rgba(74, 74, 74, 0.95);
+}
+
+/* line 13, ../../../tmp/firefox/css/__theme.scss */
+.indicator-group-center {
+  background-color: rgba(74, 74, 74, 0.95);
+}
+
+/* line 17, ../../../tmp/firefox/css/__theme.scss */
+.indicator-groups {
+  border-color: #333333;
+}
+/* line 20, ../../../tmp/firefox/css/__theme.scss */
+.indicator-groups a.active {
+  background-color: #222222;
+  box-shadow: 0 2px rgba(255, 255, 255, 0.03), inset 0 1px rgba(0, 0, 0, 0.13), 0 0 0px 1px #090909;
+}
+
+/* line 28, ../../../tmp/firefox/css/__theme.scss */
+.abs-card {
+  width: 541px;
+  background-color: white;
+  color: #555555;
+}
+/* line 33, ../../../tmp/firefox/css/__theme.scss */
+.abs-card h1 {
+  font-size: 187.5%;
+  color: black;
+}
+/* line 38, ../../../tmp/firefox/css/__theme.scss */
+.abs-card p {
+  font-size: 16px;
+}
+/* line 43, ../../../tmp/firefox/css/__theme.scss */
+.abs-card .abs-later a {
+  color: #777777;
+}
+
+/* line 49, ../../../tmp/firefox/css/__theme.scss */
+.big-title {
+  font-family: KievitWebPro-Light, sans-serif;
+  font-size: 325%;
+  color: white;
+}
+
+/* line 55, ../../../tmp/firefox/css/__theme.scss */
+.info-text {
+  font-family: KievitWebPro-Light, sans-serif;
+  color: white;
+}
+/* line 59, ../../../tmp/firefox/css/__theme.scss */
+.info-text .count {
+  font-family: KievitWebPro, sans-serif;
+}
+/* line 63, ../../../tmp/firefox/css/__theme.scss */
+.info-text .label {
+  font-size: 115%;
+  font-family: KievitWebPro, sans-serif;
+}
+
+/* line 69, ../../../tmp/firefox/css/__theme.scss */
+.indicator-group-center {
+  background-color: rgba(74, 74, 74, 0.95);
+}
+
+/* line 73, ../../../tmp/firefox/css/__theme.scss */
+#dash_trackers_settings {
+  color: #4a4a4a;
+  text-shadow: 0 1px white;
+  background: #ededed;
+}
+
+/* line 83, ../../../tmp/firefox/css/__theme.scss */
+.dash-tracker-settings .indicator-groups .indicator a,
+.dash-tracker-settings .indicator-groups .indicator span {
+  color: #4a4a4a;
+  text-shadow: none;
+}
+
+/* line 92, ../../../tmp/firefox/css/__theme.scss */
+.absb .url {
+  color: white;
+  font-size: 150%;
+}
+/* line 96, ../../../tmp/firefox/css/__theme.scss */
+.absb .url span {
+  color: white;
+  font-family: KievitWebPro-Light, sans-serif;
+}
+
+/* line 103, ../../../tmp/firefox/css/__theme.scss */
+.abs-button {
+  background-color: #ebebeb;
+  border: 1px solid silver;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4) inset, -1px 0px 0px rgba(255, 255, 255, 0.3) inset, 0px -1px 0px rgba(255, 255, 255, 0.2) inset, 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px 1px 3px rgba(0, 0, 0, 0.2);
+  color: #555555;
+  font-family: KievitWebPro, sans-serif;
+}
+/* line 114, ../../../tmp/firefox/css/__theme.scss */
+.abs-button:hover {
+  background-color: #f8f8f8;
+}
+/* line 118, ../../../tmp/firefox/css/__theme.scss */
+.abs-button:active {
+  background-color: #ebebeb;
+}
+/* line 122, ../../../tmp/firefox/css/__theme.scss */
+.abs-button:focus {
+  outline: none;
+}
+
+/* line 127, ../../../tmp/firefox/css/__theme.scss */
+.abs-button-primary {
+  color: white;
+  text-shadow: black 0px 1px 0px;
+  background-image: linear-gradient(to bottom, #11a600 0%, #0f9200 100%);
+}
+/* line 134, ../../../tmp/firefox/css/__theme.scss */
+.abs-button-primary:hover {
+  background-image: linear-gradient(to bottom, #12b000 0%, #12ab00 100%);
+}
+/* line 140, ../../../tmp/firefox/css/__theme.scss */
+.abs-button-primary:active {
+  background: #0f9200;
+}
+
+/* line 145, ../../../tmp/firefox/css/__theme.scss */
+.abs-button-secondary {
+  color: #4a4a4a;
+  text-shadow: #ededed;
+  background-color: white;
+}
+
+/* line 151, ../../../tmp/firefox/css/__theme.scss */
+.abs-button-inverted {
+  background-color: #555555;
+  color: white;
+  text-shadow: 0 1px white;
+  transition: all .2s linear;
+}
+
+/* line 158, ../../../tmp/firefox/css/__theme.scss */
+.abs-button-transparent {
+  color: white;
+  border-color: white;
+}
+
+/* line 164, ../../../tmp/firefox/css/__theme.scss */
+.danger #domain-indicator {
+  color: white;
+  text-shadow: 0 1px white;
+}
+
+/* ON/OFF switch */
+/* line 7, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch {
+  width: 60px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 18, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-checkbox {
+  display: none;
+}
+
+/* line 22, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* line 29, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.1s ease-in 0s;
+  height: 26px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.16);
+}
+
+/* line 38, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 33px;
+  padding: 0;
+  line-height: 26px;
+  font-size: 40px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* line 52, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-inner:before {
+  content: "";
+  padding-left: 21px;
+  border-radius: 2px;
+  background-color: #92be73;
+  transition: background-color 0.2s;
+}
+
+/* line 60, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-inner:after {
+  content: "";
+  padding-right: 21px;
+  border-radius: 2px;
+  background-color: #e2e1e1;
+}
+
+/* line 67, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-switch {
+  position: absolute;
+  top: 4px;
+  bottom: 0;
+  right: 30px;
+  transition: all 0.1s ease-in 0s;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35), inset 0 1px white, inset 0 0 3px white;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0));
+}
+
+/* line 84, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+/* line 88, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 5px;
+}
+
+/* line 92, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .tooltip-off {
+  display: none;
+}
+
+/* line 96, ../../../tmp/firefox/css/_common.scss */
+.onoffswitch-checkbox:not(:checked) + .onoffswitch-label .tooltip-on {
+  display: none;
+}
+
+/* line 101, ../../../tmp/firefox/css/_common.scss */
+.abs-card {
+  height: auto;
+  border-radius: 3px;
+  margin: 0 auto 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85), inset 1px 1px rgba(255, 255, 255, 0.41);
+  overflow: visible;
+  text-align: center;
+}
+/* line 110, ../../../tmp/firefox/css/_common.scss */
+.abs-card .title {
+  font-size: 187.5%;
+  color: #555555;
+  line-height: 1.2;
+  padding: 40px 50px 0;
+}
+@media screen and (max-height: 800px) {
+  /* line 110, ../../../tmp/firefox/css/_common.scss */
+  .abs-card .title {
+    padding: 25px 50px 0;
+  }
+}
+/* line 121, ../../../tmp/firefox/css/_common.scss */
+.abs-card .abs-card-buttons {
+  width: 100%;
+  left: 0;
+  margin-bottom: 37px;
+  transition: all .4s linear;
+}
+@media screen and (max-height: 800px) {
+  /* line 121, ../../../tmp/firefox/css/_common.scss */
+  .abs-card .abs-card-buttons {
+    margin-bottom: 32px;
+  }
+}
+/* line 132, ../../../tmp/firefox/css/_common.scss */
+.abs-card h1 {
+  font-weight: normal;
+  padding: 25px 50px 0px;
+  line-height: 120%;
+}
+/* line 138, ../../../tmp/firefox/css/_common.scss */
+.abs-card p {
+  padding: 0 50px 20px;
+  line-height: 1.5;
+  margin: 10px 0 0;
+  transition: all .4s linear;
+}
+@media screen and (max-height: 800px) {
+  /* line 138, ../../../tmp/firefox/css/_common.scss */
+  .abs-card p {
+    margin: 10px 0 0;
+  }
+}
+/* line 149, ../../../tmp/firefox/css/_common.scss */
+.abs-card .abs-later {
+  margin-top: 5px;
+}
+
+/* line 154, ../../../tmp/firefox/css/_common.scss */
+.abs-card.dash-tab {
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* line 159, ../../../tmp/firefox/css/_common.scss */
+.abs-card.dash-tab.abs-card-short {
+  height: 230px;
+}
+
+/* line 164, ../../../tmp/firefox/css/_common.scss */
+.abs-centered-card, .abs-centered-holder {
+  margin-top: -40px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -250px;
+}
+
+/* line 174, ../../../tmp/firefox/css/_common.scss */
+.abs-button {
+  display: inline-block;
+  min-width: 95px;
+  margin-right: 10px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4) inset, -1px 0px 0px rgba(255, 255, 255, 0.3) inset, 0px -1px 0px rgba(255, 255, 255, 0.2) inset, 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  outline-color: #555;
+  padding: 9px 15px 7px;
+  text-align: center;
+  text-shadow: #fff 0px 1px 0px;
+  cursor: pointer;
+}
+/* line 190, ../../../tmp/firefox/css/_common.scss */
+.abs-button:hover {
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0));
+}
+/* line 194, ../../../tmp/firefox/css/_common.scss */
+.abs-button:active {
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.4), inset -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), inset 1px 0 0 rgba(0, 0, 0, 0.25), 0px 0px 0px #eeeeee;
+}
+/* line 202, ../../../tmp/firefox/css/_common.scss */
+.abs-button:focus {
+  outline: none;
+}
+
+/* line 207, ../../../tmp/firefox/css/_common.scss */
+.abs-button-bigger {
+  padding: 14px 22px 11px;
+  margin: 5px 8px;
+  font-size: 120%;
+}
+
+/* line 213, ../../../tmp/firefox/css/_common.scss */
+.abs-button-primary {
+  border-color: #063d00;
+}
+
+/* line 217, ../../../tmp/firefox/css/_common.scss */
+.abs-button-secondary {
+  border-radius: 5px;
+  border-color: #c5c5c5;
+}
+/* line 221, ../../../tmp/firefox/css/_common.scss */
+.abs-button-secondary:hover {
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0));
+}
+
+/* line 226, ../../../tmp/firefox/css/_common.scss */
+.abs-button-inverted {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.72), inset 0 1px rgba(255, 255, 255, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.23);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+/* line 239, ../../../tmp/firefox/css/_common.scss */
+.abs-button-transparent {
+  background: transparent;
+  text-shadow: none;
+}
+/* line 243, ../../../tmp/firefox/css/_common.scss */
+.abs-button-transparent:hover {
+  background: transparent;
+}
+/* line 246, ../../../tmp/firefox/css/_common.scss */
+.abs-button-transparent:active {
+  background: transparent;
+}
+
+/* line 251, ../../../tmp/firefox/css/_common.scss */
+.black-tip-outer {
+  position: absolute;
+  width: 100%;
+  top: 32px;
+  left: -90px;
+  display: inline-block;
+}
+
+/* line 259, ../../../tmp/firefox/css/_common.scss */
+.black-tip {
+  background-color: #363636;
+  position: relative;
+  border: solid 1px #202020;
+  margin: 0 auto;
+  display: inline-block;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+/* line 269, ../../../tmp/firefox/css/_common.scss */
+.black-tip.black-tip-arrow-right:before {
+  content: ' ';
+  position: absolute;
+  margin-top: -7px;
+  bottom: auto;
+  left: auto;
+  right: -7px;
+  top: 50%;
+}
+/* line 281, ../../../tmp/firefox/css/_common.scss */
+.black-tip:before {
+  content: '';
+  position: absolute;
+  margin-left: -5px;
+  bottom: -7px;
+  left: 50%;
+  border: solid 1px #202020;
+  background-color: #363636;
+  display: block;
+  width: 13px;
+  height: 13px;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+/* line 302, ../../../tmp/firefox/css/_common.scss */
+.black-tip .inner {
+  background-color: #363636;
+  padding: 8px 10px 7px;
+  border-radius: 3px;
+  display: block;
+  /* transform z-index hack */
+  transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+}
+
+/* line 316, ../../../tmp/firefox/css/_common.scss */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+}
+
+/* line 320, ../../../tmp/firefox/css/_common.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #686868;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* line 325, ../../../tmp/firefox/css/_common.scss */
+::-webkit-scrollbar-track-piece:vertical:start {
+  margin-top: 3px;
+}
+
+/* line 7, ../../../tmp/firefox/css/_dash.scss */
+html.ie.ie-10 .shiftable-container,
+html.ie.ie-10 .dash-container, html.ie.ie-9 .shiftable-container,
+html.ie.ie-9 .dash-container {
+  height: 100%;
+}
+/* line 12, ../../../tmp/firefox/css/_dash.scss */
+html.ie .dash .big-icon {
+  min-height: 10px;
+}
+
+/* line 17, ../../../tmp/firefox/css/_dash.scss */
+.dash-container {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+/* line 22, ../../../tmp/firefox/css/_dash.scss */
+.dash-container.wide {
+  transition: background-color 0.4s;
+}
+/* line 25, ../../../tmp/firefox/css/_dash.scss */
+.dash-container.wide .dash {
+  margin: 0;
+  left: 0;
+  top: 84px;
+  width: 100%;
+  z-index: 440;
+}
+/* line 34, ../../../tmp/firefox/css/_dash.scss */
+.dash-container.dash-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+/* line 37, ../../../tmp/firefox/css/_dash.scss */
+.dash-container:not(.dash-transparent) {
+  transition: background-color 0.4s;
+  z-index: 0;
+}
+
+/* line 43, ../../../tmp/firefox/css/_dash.scss */
+.dash {
+  left: 50%;
+  width: 541px;
+  position: absolute;
+  margin-left: -270px;
+  height: 100%;
+}
+/* line 50, ../../../tmp/firefox/css/_dash.scss */
+.dash .big-icon {
+  margin: 0 auto 20px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 12%;
+}
+/* line 57, ../../../tmp/firefox/css/_dash.scss */
+.dash .big-icon img {
+  height: 100%;
+}
+/* line 62, ../../../tmp/firefox/css/_dash.scss */
+.dash .big-title {
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.84);
+}
+/* line 66, ../../../tmp/firefox/css/_dash.scss */
+.dash .info-text {
+  text-shadow: 0 1px black;
+  margin: 5px 0 30px;
+  line-height: 1.4;
+}
+/* line 71, ../../../tmp/firefox/css/_dash.scss */
+.dash .info-text .count {
+  font-size: 90px;
+  cursor: pointer;
+}
+/* line 78, ../../../tmp/firefox/css/_dash.scss */
+.dash .actions .button {
+  margin: 0 10px;
+}
+/* line 83, ../../../tmp/firefox/css/_dash.scss */
+.dash .button {
+  display: inline-block;
+  font-family: KievitWebPro, sans-serif;
+  font-size: 19px;
+  line-height: 2.3;
+  color: #555;
+  text-shadow: 0 1px #fff;
+  margin: 0 auto;
+  min-width: 135px;
+  height: 39px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19), inset 0 1px white, inset 0 0 2px white;
+  border: solid 1px #535353;
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0));
+}
+/* line 105, ../../../tmp/firefox/css/_dash.scss */
+.dash .dash-carousel-container {
+  width: 2000%;
+  position: relative;
+  height: 100%;
+  top: 15%;
+}
+/* line 112, ../../../tmp/firefox/css/_dash.scss */
+.dash .scroll-down-to-see {
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+  font-family: KievitWebPro-Bold, sans-serif;
+  opacity: .6;
+}
+/* line 119, ../../../tmp/firefox/css/_dash.scss */
+.dash .scroll-down-to-see:hover {
+  opacity: 1;
+}
+@media screen and (max-height: 750px) {
+  /* line 112, ../../../tmp/firefox/css/_dash.scss */
+  .dash .scroll-down-to-see {
+    right: 10px;
+    bottom: -9px;
+  }
+}
+/* line 129, ../../../tmp/firefox/css/_dash.scss */
+.dash .scroll-down-to-see:after {
+  content: '';
+  width: 21px;
+  height: 22px;
+  background: URL("/img/scroll-down.svg");
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  margin-left: -10px;
+}
+@media screen and (max-height: 750px) {
+  /* line 129, ../../../tmp/firefox/css/_dash.scss */
+  .dash .scroll-down-to-see:after {
+    top: -4px;
+    left: auto;
+    margin-left: 0;
+    right: -26px;
+  }
+}
+
+/* line 148, ../../../tmp/firefox/css/_dash.scss */
+.wide .dash-carousel-container {
+  display: none;
+}
+
+/* line 152, ../../../tmp/firefox/css/_dash.scss */
+.dash-tab {
+  vertical-align: top;
+  width: 541px;
+  text-align: center;
+  display: block;
+  float: left;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+/* line 162, ../../../tmp/firefox/css/_dash.scss */
+.dash-tab > div:only-child {
+  height: 100%;
+}
+
+/* line 167, ../../../tmp/firefox/css/_dash.scss */
+.dash-tab-positioned {
+  position: relative;
+}
+
+/* line 171, ../../../tmp/firefox/css/_dash.scss */
+.navbar-inner {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 179, ../../../tmp/firefox/css/_dash.scss */
+.shiftable-container {
+  display: flex;
+  flex: 1;
+}
+
+/* line 184, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link {
+  position: fixed;
+  right: 0;
+  top: calc(15% + 220px);
+  z-index: 60;
+}
+/* line 190, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link a {
+  position: relative;
+  background: #FFFFFF;
+  padding: 10px 10px 4px 13px;
+  border-radius: 3px 0 0 3px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  right: 0;
+  transition: right 0.3s, background-color 0.3s;
+}
+/* line 201, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link a:hover {
+  background: #9CCA87;
+  transition: right 0.3s, background-color 0.3s;
+}
+/* line 205, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link a:hover .black-tip-outer {
+  display: block;
+}
+/* line 210, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link a.active {
+  right: -50px;
+  transition: right 0.3s, background-color 0.3s;
+}
+/* line 214, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link a.active .black-tip-outer {
+  display: none;
+}
+/* line 220, ../../../tmp/firefox/css/_dash.scss */
+.dash-feedback-link .black-tip-outer {
+  display: none;
+  top: 3px;
+  left: auto;
+  right: 63px;
+  width: auto;
+}
+
+/* line 229, ../../../tmp/firefox/css/_dash.scss */
+.dash-transparent .dash-feedback-link {
+  display: none;
+}
+
+/* line 2, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-classification.safe .back {
+  display: none;
+}
+/* line 6, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-classification.safe .big-icon {
+  background-image: url(/img/classification_safe_lg.svg);
+}
+
+/* line 13, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-classification.unsafe .big-icon {
+  background-image: url(/img/classification_unsafe_lg.svg);
+}
+/* line 17, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-classification.unsafe .dash-unsafe-actions {
+  display: block;
+}
+
+/* line 22, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions {
+  display: none;
+}
+/* line 25, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .abs-button {
+  margin-bottom: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  line-height: 1;
+}
+/* line 32, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .abs-popup-box {
+  left: auto;
+  top: -3px;
+  right: -141px;
+  width: 320px;
+  text-align: left;
+}
+/* line 39, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .abs-popup-box:before {
+  margin-left: -8px;
+}
+/* line 43, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .abs-popup-box p {
+  margin-bottom: 0;
+}
+/* line 47, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .abs-popup-box h2 {
+  font-size: 105%;
+  font-weight: normal;
+  margin-top: 0;
+  color: #000;
+}
+/* line 55, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .abs-tut-next, .dash-unsafe-actions .exception {
+  display: inline-block;
+}
+/* line 59, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions #lnk-info {
+  display: inline-block;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  margin-left: -4px;
+  margin-bottom: 23px;
+  outline: none;
+  background: url(/img/info_empty.svg) no-repeat 50% 50%;
+  background-size: 20px 20px;
+}
+/* line 71, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions #lnk-info:hover {
+  background: url(/img/info_full.svg) no-repeat 50% 50%;
+  background-size: 20px 20px;
+}
+/* line 77, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .info {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+/* line 83, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .info.shown a#lnk-info {
+  background: url(/img/info_full.svg) no-repeat 50% 50%;
+  background-size: 20px 20px;
+}
+/* line 88, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .info.shown .abs-popup-box {
+  display: block;
+}
+/* line 93, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .info .abs-popup-box {
+  display: none;
+}
+/* line 100, ../../../tmp/firefox/css/_dash_classification.scss */
+.dash-unsafe-actions .absb-check #btn-exception .domain {
+  font-size: 11px;
+  display: block;
+  padding-top: 1px;
+  opacity: .7;
+  max-width: 250px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 113, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception .states {
+  display: block;
+  margin-top: 19px;
+}
+
+/* line 118, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception .states span {
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.4s;
+  margin-top: -19px;
+  text-align: left;
+}
+
+/* line 130, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception.exempt .states .remove {
+  opacity: 1;
+}
+/* line 133, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception.exempt .abs-popup-box-text.add {
+  display: none;
+}
+
+/* line 139, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception.not-exempt .states .add {
+  opacity: 1;
+}
+/* line 142, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception.not-exempt .abs-popup-box-text.remove {
+  display: none;
+}
+
+/* line 149, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception.transition.exempt .added, .exception.transition.not-exempt .removed {
+  opacity: 1;
+}
+/* line 155, ../../../tmp/firefox/css/_dash_classification.scss */
+.exception.transition .states .add,
+.exception.transition .states .remove {
+  opacity: 0;
+}
+
+/* line 2, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers.no-trackers {
+  margin-top: 5%;
+}
+/* line 6, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers hr {
+  margin: 30px 60px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #444 transparent #888;
+}
+/* line 13, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers .title {
+  position: relative;
+  display: inline-block;
+}
+/* line 20, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers .title .show-tooltip {
+  width: 22px;
+  margin: 2px -24px 0 -8px;
+  opacity: 0.6;
+}
+/* line 27, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers .title .show-tooltip:hover {
+  opacity: 1;
+}
+/* line 32, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers .title .tourtip {
+  margin-top: 2px;
+  font-size: 16px;
+  text-shadow: none;
+}
+/* line 37, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers .title .tourtip p {
+  margin-bottom: 0;
+  text-align: left;
+}
+/* line 44, ../../../tmp/firefox/css/_dash_trackers.scss */
+.dash-trackers .no-trackers-message {
+  width: 80%;
+  margin: 36px auto 0;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+/* line 52, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-host {
+  margin-top: 10px;
+  color: #e2e0e1;
+  text-shadow: 0 1px black;
+}
+
+/* line 58, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list-header {
+  position: relative;
+  width: 420px;
+  margin: 36px auto 0;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 65, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list-header .trackers-toggle-header {
+  position: absolute;
+}
+
+/* line 70, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list {
+  width: 460px;
+  max-height: 30%;
+  margin: 20px auto;
+  padding: 0;
+  overflow: auto;
+}
+/* line 77, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list .tracker {
+  position: relative;
+  list-style: none;
+  margin: 20px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+/* line 87, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list .tracker:first-child {
+  margin-top: 0;
+}
+/* line 91, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list .tracker:last-child {
+  margin-bottom: 0;
+}
+/* line 95, ../../../tmp/firefox/css/_dash_trackers.scss */
+.trackers-list .tracker .onoffswitch {
+  top: 3px;
+}
+
+/* line 101, ../../../tmp/firefox/css/_dash_trackers.scss */
+.toggle-all {
+  display: inline-block;
+  padding: 16px 26px 12px;
+  border: 1px solid #929292;
+  border-radius: 4px;
+  font-family: "KievitWebPro";
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+}
+/* line 112, ../../../tmp/firefox/css/_dash_trackers.scss */
+.toggle-all > * {
+  display: none;
+}
+/* line 116, ../../../tmp/firefox/css/_dash_trackers.scss */
+.toggle-all img {
+  margin: -2px 0 0 4px;
+}
+
+/* line 121, ../../../tmp/firefox/css/_dash_trackers.scss */
+.how-many {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px !important;
+}
+/* line 129, ../../../tmp/firefox/css/_dash_trackers.scss */
+.how-many img {
+  width: 25px;
+  margin-right: 4px;
+  margin-top: -3px;
+}
+
+/* line 1, ../../../tmp/firefox/css/_dash_offers.scss */
+.dash-tab-popup {
+  top: 46px;
+  position: fixed;
+  left: calc(50% - 270px);
+}
+
+/* line 7, ../../../tmp/firefox/css/_dash_offers.scss */
+.offer-card .rating-bar {
+  background: url("/img/offers-rating.png") no-repeat !important;
+}
+
+/* line 11, ../../../tmp/firefox/css/_dash_offers.scss */
+.offer-card .rating-bar .rating {
+  background: url("/img/offers-rating.png") 0 -11px !important;
+}
+
+/* line 17, ../../../tmp/firefox/css/_dash_offers.scss */
+html.ie-9 .close-offers-button, html.ie-10 .close-offers-button {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+/* line 21, ../../../tmp/firefox/css/_dash_offers.scss */
+html.ie-9 .close-offers-button img, html.ie-10 .close-offers-button img {
+  width: 16px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 28, ../../../tmp/firefox/css/_dash_offers.scss */
+html.ie-10 .close-offers-button {
+  padding-left: 16px;
+}
+
+/* line 1, ../../../tmp/firefox/css/_dash_feedback.scss */
+.abs-card.dash-tab.abs-card-feedback {
+  position: relative;
+  width: 365px;
+  margin-left: 88px;
+  margin-right: 88px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* line 9, ../../../tmp/firefox/css/_dash_feedback.scss */
+.abs-card.dash-tab.abs-card-feedback .feedback-form {
+  width: 334px;
+  height: 320px;
+  margin: 15px;
+  margin-bottom: 0px;
+  border: none;
+  overflow: hidden;
+}
+
+/* line 1, ../../../tmp/firefox/css/_alien.scss */
+.alien-placeholder, #Alien {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 65px);
+  width: 130px;
+  height: 7px;
+  margin: -14px auto 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 4px -1px rgba(100, 100, 100, 0.4);
+}
+
+/* line 12, ../../../tmp/firefox/css/_alien.scss */
+.alien-placeholder {
+  background: rgba(127, 127, 172, 0.2);
+  z-index: -5;
+  top: 14px;
+}
+
+/* line 18, ../../../tmp/firefox/css/_alien.scss */
+#Alien {
+  z-index: -1;
+  background-color: #9eca8d;
+  opacity: 0;
+  transition: margin-top 200ms, opacity 200ms;
+}
+/* line 25, ../../../tmp/firefox/css/_alien.scss */
+#Alien.shown {
+  margin-top: 0;
+  opacity: 0.95;
+}
+/* line 30, ../../../tmp/firefox/css/_alien.scss */
+#Alien.danger {
+  background-color: #c94949;
+}
+
+/* line 9, ../../../tmp/firefox/css/_indicators.scss */
+html.ie.ie-10 .indicators-container.state-bar .indicator-groups, html.ie.ie-9 .indicators-container.state-bar .indicator-groups {
+  text-align: center;
+}
+/* line 13, ../../../tmp/firefox/css/_indicators.scss */
+html.ie.ie-10 .indicators-container.state-bar .indicator-group-right, html.ie.ie-9 .indicators-container.state-bar .indicator-group-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -3px;
+  height: 45px;
+}
+/* line 22, ../../../tmp/firefox/css/_indicators.scss */
+html.ie.ie-10 .indicators-container.state-dash .indicator-group-right, html.ie.ie-9 .indicators-container.state-dash .indicator-group-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 30, ../../../tmp/firefox/css/_indicators.scss */
+html.ie.ie-10 .indicator-group-center, html.ie.ie-9 .indicator-group-center {
+  top: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 36, ../../../tmp/firefox/css/_indicators.scss */
+html.ie.ie-10 .indicator-outer.active, html.ie.ie-9 .indicator-outer.active {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 40, ../../../tmp/firefox/css/_indicators.scss */
+html.ie.ie-10 .indicator-outer.active + .indicator-outer.active, html.ie.ie-9 .indicator-outer.active + .indicator-outer.active {
+  margin-left: -4px;
+}
+/* line 45, ../../../tmp/firefox/css/_indicators.scss */
+html.ie #settings-indicator {
+  width: 28px;
+}
+
+/* line 51, ../../../tmp/firefox/css/_indicators.scss */
+.tour-start {
+  display: none !important;
+}
+
+/* line 55, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container {
+  height: 46px;
+  overflow: hidden;
+  margin-top: -46px;
+  padding-left: 42px;
+  transition: margin-top 200ms;
+}
+/* line 63, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-bar, .indicators-container.state-dash {
+  margin-top: 0;
+}
+/* line 68, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash, .indicators-container.state-hidden_bar {
+  height: 48px;
+  padding-left: 0;
+}
+/* line 72, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-groups, .indicators-container.state-hidden_bar .indicator-groups {
+  justify-content: space-between;
+}
+/* line 77, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-group-left,
+.indicators-container.state-dash .indicator-group-right, .indicators-container.state-hidden_bar .indicator-group-left,
+.indicators-container.state-hidden_bar .indicator-group-right {
+  min-width: 300px;
+}
+/* line 82, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-group-center,
+.indicators-container.state-dash .indicator-group-right, .indicators-container.state-hidden_bar .indicator-group-center,
+.indicators-container.state-hidden_bar .indicator-group-right {
+  border: none;
+  background-color: transparent;
+}
+/* line 87, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-group-left, .indicators-container.state-hidden_bar .indicator-group-left {
+  display: block;
+  margin-left: 1px;
+}
+/* line 93, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-group-right .indicator, .indicators-container.state-hidden_bar .indicator-group-right .indicator {
+  padding: 3px;
+  line-height: 24px;
+}
+/* line 100, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-group-center .indicator a, .indicators-container.state-hidden_bar .indicator-group-center .indicator a {
+  padding: 3px 5px;
+}
+/* line 107, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-bar:not(.offers-wide) .indicator-groups {
+  justify-content: center;
+}
+/* line 116, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.state-dash .indicator-group.indicator-group-right {
+  display: flex;
+}
+/* line 122, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.offers-wide .indicator-groups {
+  justify-content: space-between;
+}
+/* line 125, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.offers-wide .indicator-groups .indicator-group-left {
+  display: block;
+}
+/* line 129, ../../../tmp/firefox/css/_indicators.scss */
+.indicators-container.offers-wide .indicator-groups .indicator-group-right {
+  border: none;
+  background-color: transparent;
+}
+
+/* line 137, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-subgroup {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 141, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-subgroup.offers {
+  overflow: hidden;
+}
+
+/* line 146, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group {
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 150, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group.indicator-group-right {
+  display: inline-block;
+}
+/* line 155, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group.offers a.active {
+  box-shadow: none !important;
+}
+
+/* line 161, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-outer {
+  display: none;
+  line-height: 46px;
+}
+/* line 165, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-outer.active {
+  display: block;
+}
+
+/* line 170, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-groups {
+  display: flex;
+  height: 46px;
+  padding: 0 4px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+/* line 177, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-groups a.active {
+  border-radius: 3px;
+}
+
+/* line 182, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-left {
+  display: none;
+}
+
+/* line 187, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-center,
+.indicator-group-right {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 194, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-right {
+  margin-left: 1px;
+  text-align: right;
+  background-color: rgba(35, 39, 48, 0.95);
+}
+/* line 199, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-right.offers {
+  border-color: #dfdfdf;
+  background-color: #f8f8f8;
+}
+/* line 204, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-right .indicator {
+  padding: 0 8px;
+  line-height: 46px;
+}
+/* line 208, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-right .indicator:hover img {
+  opacity: 0.9;
+}
+/* line 212, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-right .indicator img {
+  opacity: 0.7;
+  transition: opacity 200ms;
+}
+
+/* line 219, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-center {
+  height: 45px;
+  padding: 0 10px;
+}
+/* line 223, ../../../tmp/firefox/css/_indicators.scss */
+.indicator-group-center.offers {
+  height: 47px;
+  padding: 0;
+  border-width: 0;
+  background-color: initial;
+  z-index: 20;
+}
+
+/* line 232, ../../../tmp/firefox/css/_indicators.scss */
+.indicator {
+  position: relative;
+  display: inline-block;
+  padding: 3px 5px;
+  line-height: 24px;
+  cursor: pointer;
+}
+/* line 239, ../../../tmp/firefox/css/_indicators.scss */
+.indicator .indicator-text {
+  position: relative;
+  top: 2px;
+  text-shadow: 1px 1px #000;
+  font-family: KievitWebPro, sans-serif;
+  margin: 0;
+}
+/* line 247, ../../../tmp/firefox/css/_indicators.scss */
+.indicator img {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+/* line 253, ../../../tmp/firefox/css/_indicators.scss */
+#domain-indicator {
+  display: none;
+  line-height: 46px;
+  font-style: normal;
+  font-size: 17px;
+  text-shadow: 0 1px black;
+  color: #a9a9a9;
+  cursor: default;
+}
+
+/* line 263, ../../../tmp/firefox/css/_indicators.scss */
+#trackers-indicator {
+  margin-left: 4px;
+}
+
+/* line 267, ../../../tmp/firefox/css/_indicators.scss */
+.state-hidden_bar #dash-indicator {
+  display: none;
+}
+
+/* line 271, ../../../tmp/firefox/css/_indicators.scss */
+#dash-indicator {
+  font-family: KievitWebPro-Bold, sans-serif;
+}
+/* line 274, ../../../tmp/firefox/css/_indicators.scss */
+#dash-indicator img {
+  width: 23px;
+}
+
+/* line 280, ../../../tmp/firefox/css/_indicators.scss */
+#settings-indicator img {
+  height: 20px;
+}
+
+/* line 285, ../../../tmp/firefox/css/_indicators.scss */
+#offers-indicator {
+  display: flex;
+  max-width: 380px;
+  padding: 0;
+}
+
+/* line 291, ../../../tmp/firefox/css/_indicators.scss */
+.offer-alert {
+  text-align: center;
+  white-space: nowrap;
+}
+/* line 295, ../../../tmp/firefox/css/_indicators.scss */
+.offer-alert .discount {
+  width: 90px;
+  height: 46px;
+  line-height: 49px;
+  padding: 0px 10px;
+  border-bottom-left-radius: 4px;
+  font-size: 90%;
+  font-family: KievitWebPro-Bold, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.26);
+  background-color: #2c88f7;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+/* line 309, ../../../tmp/firefox/css/_indicators.scss */
+.offer-alert .discount.pointer {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+/* line 314, ../../../tmp/firefox/css/_indicators.scss */
+.offer-alert .discount.pointer:after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-top: -3px;
+  margin-left: -7px;
+  pointer-events: none;
+  border-top-color: #2b88f6;
+  border: 7px solid rgba(43, 136, 246, 0);
+}
+/* line 330, ../../../tmp/firefox/css/_indicators.scss */
+.offer-alert .indicator-text {
+  top: 0;
+  max-width: 240px;
+  min-width: 120px;
+  height: 45px;
+  line-height: 49px;
+  padding: 0 10px;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-bottom-right-radius: 4px;
+  color: #111;
+  text-shadow: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #f2f2f2;
+  border-color: #c9c9c9;
+}
+/* line 349, ../../../tmp/firefox/css/_indicators.scss */
+.offer-alert strong {
+  font-family: KievitWebPro-Bold, sans-serif;
+  font-weight: normal;
+}
+
+/* line 357, ../../../tmp/firefox/css/_indicators.scss */
+.state-dash .offer-alert .indicator-text {
+  border: 0;
+  background-color: transparent;
+}
+/* line 362, ../../../tmp/firefox/css/_indicators.scss */
+.state-dash .offer-alert .discount {
+  line-height: 52px;
+  font-family: KievitWebPro, sans-serif;
+  font-size: 100%;
+  color: #2c88f7;
+  background: none;
+}
+/* line 372, ../../../tmp/firefox/css/_indicators.scss */
+.state-dash #offers-indicator:after {
+  border: 0;
+  background: linear-gradient(to right, transparent, rgba(248, 248, 248, 0.8));
+}
+
+/* line 5, ../../../tmp/firefox/css/_indicators_danger.scss */
+.danger.state-dash .indicator-groups, .danger.state-hidden_bar .indicator-groups,
+.danger .indicator-group-center,
+.danger .indicator-group-right {
+  background-color: #c94949;
+  border-color: #741A1A;
+}
+/* line 13, ../../../tmp/firefox/css/_indicators_danger.scss */
+.danger.state-dash .indicator-group-center,
+.danger.state-dash .indicator-group-right, .danger.state-hidden_bar .indicator-group-center,
+.danger.state-hidden_bar .indicator-group-right {
+  background-color: initial;
+  border-color: initial;
+}
+/* line 20, ../../../tmp/firefox/css/_indicators_danger.scss */
+.danger .indicator-groups a.active {
+  background-color: rgba(45, 45, 45, 0.7);
+  box-shadow: 0 0 0px 1px rgba(32, 32, 32, 0.7);
+}
+/* line 27, ../../../tmp/firefox/css/_indicators_danger.scss */
+.danger .indicator-group-right .indicator img {
+  opacity: 1;
+}
+
+/* line 33, ../../../tmp/firefox/css/_indicators_danger.scss */
+.unsafe-link {
+  text-transform: uppercase;
+}
+
+/* line 1, ../../../tmp/firefox/css/_blue_dot.scss */
+.blue-dot-container {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  /* Centering for the demo */
+  margin-left: 7px;
+  margin-top: -17px;
+}
+
+/* line 11, ../../../tmp/firefox/css/_blue_dot.scss */
+.blue-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 50%;
+  background-clip: padding-box;
+  background-color: #2b87f5;
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.1) -25%, rgba(255, 255, 255, 0) 125%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+/* line 26, ../../../tmp/firefox/css/_blue_dot.scss */
+.blue-dot-pulsate {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8px;
+  width: 24px;
+  height: 24px;
+  margin-top: -8px;
+  border: 2px solid rgba(46, 143, 247, 0);
+  background: rgba(46, 143, 247, 0.38);
+  border-radius: 50%;
+  opacity: 0.0;
+}
+/* line 39, ../../../tmp/firefox/css/_blue_dot.scss */
+.blue-dot-pulsate.animate {
+  -webkit-animation: blue-dot 3s ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation: blue-dot 3s ease-in-out;
+  -moz-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes blue-dot {
+  /* line 48, ../../../tmp/firefox/css/_blue_dot.scss */
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    opacity: 0.0;
+  }
+
+  /* line 49, ../../../tmp/firefox/css/_blue_dot.scss */
+  45% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1.0;
+    border: 2px solid rgba(46, 143, 247, 0.05);
+  }
+
+  /* line 50, ../../../tmp/firefox/css/_blue_dot.scss */
+  100% {
+    -webkit-transform: scale(1.05, 1.05);
+    opacity: 0.0;
+    background: transparent;
+    border: 2px solid #2e8ff7;
+  }
+}
+
+@-moz-keyframes blue-dot {
+  /* line 54, ../../../tmp/firefox/css/_blue_dot.scss */
+  0% {
+    -moz-transform: scale(0.1, 0.1);
+    opacity: 0.0;
+  }
+
+  /* line 55, ../../../tmp/firefox/css/_blue_dot.scss */
+  45% {
+    -moz-transform: scale(1, 1);
+    opacity: 1.0;
+    border: 2px solid rgba(46, 143, 247, 0.05);
+  }
+
+  /* line 56, ../../../tmp/firefox/css/_blue_dot.scss */
+  100% {
+    -moz-transform: scale(1.05, 1.05);
+    opacity: 0.0;
+    background: transparent;
+    border: 2px solid #2e8ff7;
+  }
+}
+
+/* line 1, ../../../tmp/firefox/css/_tour.scss */
+.tour-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  left: 0;
+  display: none;
+  z-index: 100;
+}
+
+/* line 17, ../../../tmp/firefox/css/_tour.scss */
+.step-trackers,
+.step-offers,
+.step-howtoedittrackers,
+.step-classification,
+.step-feedback,
+.step-tinytopview,
+.step-offers {
+  display: none;
+}
+
+/* line 21, ../../../tmp/firefox/css/_tour.scss */
+.step-unsafe {
+  display: none;
+  top: 5px;
+  left: 50%;
+  margin-left: -96px;
+}
+
+/* line 28, ../../../tmp/firefox/css/_tour.scss */
+.cover img {
+  margin-bottom: 20px;
+}
+
+/* line 32, ../../../tmp/firefox/css/_tour.scss */
+.indicator-outer .tour-start {
+  position: static;
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+/* line 39, ../../../tmp/firefox/css/_tour.scss */
+.tour-card-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+/* line 46, ../../../tmp/firefox/css/_tour.scss */
+.tour-start-container {
+  top: 60px;
+  right: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 54, ../../../tmp/firefox/css/_tour.scss */
+.tour-start-link {
+  display: block;
+  text-decoration: none;
+}
+/* line 58, ../../../tmp/firefox/css/_tour.scss */
+.tour-start-link.active {
+  background: none;
+  box-shadow: none;
+}
+
+/* line 64, ../../../tmp/firefox/css/_tour.scss */
+.tour-start {
+  position: absolute;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 100%;
+  /* Tour play END */
+}
+/* line 70, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-tooltip {
+  background-color: rgba(255, 246, 159, 0.97);
+  position: relative;
+  font-size: 115%;
+  color: #555555;
+  text-shadow: 0 1px white;
+  padding: 10px 15px 8px;
+  border-radius: 3px;
+  font-family: KievitWebPro-Bold, sans-serif;
+  margin-right: 6px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 85, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-tooltip:after, .tour-start .tour-tooltip:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 96, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-tooltip:after {
+  border-color: rgba(255, 246, 159, 0);
+  border-left-color: #fff69f;
+  border-width: 7px;
+  margin-top: -7px;
+}
+/* line 103, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-tooltip:before {
+  border-color: rgba(200, 183, 40, 0);
+  border-left-color: #c8b728;
+  border-width: 8px;
+  margin-top: -8px;
+}
+/* line 111, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-play {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #2b88f6;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.26);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+  text-align: center;
+}
+/* line 124, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-play img {
+  position: relative;
+  top: 9px;
+}
+/* line 129, ../../../tmp/firefox/css/_tour.scss */
+.tour-start .tour-play .ring {
+  border: 5px solid rgba(55, 148, 221, 0.7);
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  opacity: 0;
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  /* line 145, ../../../tmp/firefox/css/_tour.scss */
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    opacity: 0.0;
+  }
+
+  /* line 146, ../../../tmp/firefox/css/_tour.scss */
+  50% {
+    opacity: 1.0;
+  }
+
+  /* line 147, ../../../tmp/firefox/css/_tour.scss */
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    opacity: 0.0;
+  }
+}
+
+/* line 150, ../../../tmp/firefox/css/_tour.scss */
+.tourtip-container {
+  display: none;
+}
+
+/* With pointers */
+/* line 156, ../../../tmp/firefox/css/_tour.scss */
+.with-pointer:after,
+.with-pointer:before {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Point up */
+/* line 168, ../../../tmp/firefox/css/_tour.scss */
+.point-up:after, .point-up:before {
+  bottom: 100%;
+  left: 30px;
+}
+/* line 173, ../../../tmp/firefox/css/_tour.scss */
+.point-up:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 9px;
+}
+/* line 179, ../../../tmp/firefox/css/_tour.scss */
+.point-up:before {
+  border-color: rgba(184, 184, 184, 0);
+  border-bottom-color: #b8b8b8;
+  border-width: 10px;
+  margin-left: -1px;
+}
+
+/* line 189, ../../../tmp/firefox/css/_tour.scss */
+.point-up-right:after, .point-up-right:before {
+  left: auto;
+  right: 30px;
+}
+
+/* line 197, ../../../tmp/firefox/css/_tour.scss */
+.point-up-center:after, .point-up-center:before {
+  left: auto;
+  right: 50%;
+  margin-right: -9px;
+}
+
+/* Point left */
+/* line 207, ../../../tmp/firefox/css/_tour.scss */
+.point-left:after, .point-left:before {
+  right: 100%;
+  top: 50%;
+}
+/* line 212, ../../../tmp/firefox/css/_tour.scss */
+.point-left:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 9px;
+  margin-top: -9px;
+}
+/* line 219, ../../../tmp/firefox/css/_tour.scss */
+.point-left:before {
+  border-color: rgba(184, 184, 184, 0);
+  border-right-color: #b8b8b8;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+/* Point right */
+/* line 230, ../../../tmp/firefox/css/_tour.scss */
+.point-right:after, .point-right:before {
+  left: 100%;
+  top: 50%;
+}
+/* line 235, ../../../tmp/firefox/css/_tour.scss */
+.point-right:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #fff;
+  border-width: 9px;
+  margin-top: -9px;
+}
+/* line 242, ../../../tmp/firefox/css/_tour.scss */
+.point-right:before {
+  border-color: rgba(184, 184, 184, 0);
+  border-left-color: #b8b8b8;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+/* line 250, ../../../tmp/firefox/css/_tour.scss */
+.tourtip {
+  position: absolute;
+  z-index: 1;
+  width: 385px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.32), inset 0 1px white;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));
+  padding: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Variations */
+  /* On edit trackers, ligher backgound */
+}
+/* line 264, ../../../tmp/firefox/css/_tour.scss */
+body[lang="de-DE"] .tourtip.step-offers {
+  width: 465px;
+}
+/* line 270, ../../../tmp/firefox/css/_tour.scss */
+body[lang="es-ES"] .tourtip.step-offers {
+  width: 450px;
+}
+/* line 278, ../../../tmp/firefox/css/_tour.scss */
+.tourtip.lighterbg {
+  border: 0;
+  box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.13), inset 0 1px white;
+}
+/* line 283, ../../../tmp/firefox/css/_tour.scss */
+.tourtip.lighterbg.with-pointer {
+  border: 0 !important;
+}
+/* line 288, ../../../tmp/firefox/css/_tour.scss */
+.tourtip .tip-title {
+  font-size: 22px;
+  color: #555555;
+}
+/* line 294, ../../../tmp/firefox/css/_tour.scss */
+.tourtip p,
+.tourtip ul {
+  color: #777;
+  line-height: 1.45;
+}
+/* line 299, ../../../tmp/firefox/css/_tour.scss */
+.tourtip p {
+  margin: 20px 0;
+}
+/* line 303, ../../../tmp/firefox/css/_tour.scss */
+.tourtip ul {
+  padding: 0 0 0 17px;
+  margin: 0;
+}
+/* line 309, ../../../tmp/firefox/css/_tour.scss */
+.tourtip .abs-card-buttons .abs-tut-next {
+  padding: 9px 15px 7px;
+  text-align: center;
+  margin-right: 13px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  min-width: 95px;
+}
+/* line 318, ../../../tmp/firefox/css/_tour.scss */
+.tourtip .abs-card-buttons .abs-button {
+  margin-bottom: 0;
+}
+
+/* line 3, ../../../tmp/firefox/css/_settings.scss */
+html.ie .settings-uninstall {
+  display: none;
+}
+
+/* line 8, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card {
+  position: relative;
+  top: 20%;
+  max-height: 580px;
+}
+/* line 13, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .settings-head {
+  opacity: .3;
+  margin-bottom: 28px;
+  padding: 55px 0 25px;
+}
+/* line 19, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .set {
+  position: relative;
+  text-align: left;
+  font-size: 150%;
+  color: #555555;
+  padding: 15px 35px 20px;
+  margin-bottom: 15px;
+}
+/* line 27, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .set .onoffswitch {
+  right: 35px;
+  top: 10px;
+}
+/* line 33, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .set.first-option {
+  border-bottom: 1px solid #ccc;
+}
+/* line 37, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .kill-settings {
+  position: absolute;
+  right: 0px;
+  top: -2px;
+  z-index: 900;
+}
+/* line 44, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .links {
+  position: absolute;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 50, ../../../tmp/firefox/css/_settings.scss */
+.abs-settings-card .links a {
+  color: #898989;
+}
+
+/* line 56, ../../../tmp/firefox/css/_settings.scss */
+.abs-card.dash-tab.abs-settings-card {
+  overflow: visible;
+}
+
+/* line 60, ../../../tmp/firefox/css/_settings.scss */
+.set.inactive {
+  display: none;
+  opacity: 0.5;
+}
+/* line 64, ../../../tmp/firefox/css/_settings.scss */
+.set.inactive .onoffswitch-inner:before {
+  background-color: #D3D3D3;
+}
+
+/* line 69, ../../../tmp/firefox/css/_settings.scss */
+.set.inactive {
+  opacity: 0.5;
+}
+/* line 72, ../../../tmp/firefox/css/_settings.scss */
+.set.inactive .onoffswitch-inner:before {
+  background-color: #D3D3D3;
+}
+
+/* line 77, ../../../tmp/firefox/css/_settings.scss */
+.onoffswitch-label .black-tip-outer {
+  bottom: 41px;
+  left: -76px;
+  top: auto;
+  width: 205px;
+  display: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* line 87, ../../../tmp/firefox/css/_settings.scss */
+.onoffswitch-label:hover .black-tip-outer {
+  display: block;
+}
+
+/* line 91, ../../../tmp/firefox/css/_settings.scss */
+.settings-bottom-block {
+  overflow: hidden;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-top: 1px solid #999;
+  margin: 0 35px;
+}
+
+/* line 100, ../../../tmp/firefox/css/_settings.scss */
+.settings-support-link,
+.settings-uninstall {
+  color: #555;
+}
+
+/* line 104, ../../../tmp/firefox/css/_settings.scss */
+.settings-support-link {
+  float: left;
+}
+
+/* line 108, ../../../tmp/firefox/css/_settings.scss */
+.settings-uninstall {
+  float: right;
+}
+
+@media print {
+  /* line 18, ../../../tmp/firefox/css/app.scss */
+  html {
+    display: none;
+  }
+}
+/* line 24, ../../../tmp/firefox/css/app.scss */
+html.ie img {
+  border: none;
+}
+
+/* line 29, ../../../tmp/firefox/css/app.scss */
+html {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 38, ../../../tmp/firefox/css/app.scss */
+body {
+  padding: 18px;
+  margin: 0;
+  padding: 0;
+  font: 16px/1 KievitWebPro-Light, sans-serif;
+  height: 100%;
+}
+/* line 45, ../../../tmp/firefox/css/app.scss */
+body.white {
+  background: transparent;
+}
+
+/* line 50, ../../../tmp/firefox/css/app.scss */
+a {
+  color: #eee;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 56, ../../../tmp/firefox/css/app.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 60, ../../../tmp/firefox/css/app.scss */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Fixes artifacts of animation */
+}
+
+/* line 68, ../../../tmp/firefox/css/app.scss */
+#main-nav {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 2px;
+  border-bottom: 2px solid grey;
+}
+
+/* line 75, ../../../tmp/firefox/css/app.scss */
+#main {
+  padding: 0 10px;
+}
+
+/* line 79, ../../../tmp/firefox/css/app.scss */
+#page {
+  width: 800px;
+  margin: 20px auto;
+  background: rgba(60, 60, 60, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 400px;
+}

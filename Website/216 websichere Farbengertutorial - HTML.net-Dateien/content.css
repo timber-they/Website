@@ -1,0 +1,11 @@
+/* line 1, ../../../../tmp/firefox/css/content/_sparberater_shifter.scss */
+iframe#avira-toolbar {
+  margin-top: 5px !important;
+}
+
+/* line 4, ../../../../tmp/firefox/css/content/content.scss */
+.__avira__blur {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  filter: blur(10px);
+}

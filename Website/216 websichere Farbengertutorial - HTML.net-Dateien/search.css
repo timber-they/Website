@@ -1,0 +1,63 @@
+/* line 1, ../../../../tmp/firefox/css/content/engines/ask.scss */
+#midblock {
+  overflow: visible;
+}
+/* line 4, ../../../../tmp/firefox/css/content/engines/ask.scss */
+#midblock .__avira__search_block {
+  left: -40px;
+  top: -36px;
+}
+/* line 8, ../../../../tmp/firefox/css/content/engines/ask.scss */
+#midblock .abstract[style="position: relative;"] .__avira__search_block {
+  left: -22px;
+}
+/* line 11, ../../../../tmp/firefox/css/content/engines/ask.scss */
+#midblock #qna .__avira__search_block {
+  left: -42px;
+  top: -2px;
+}
+
+/* line 1, ../../../../tmp/firefox/css/content/engines/duckduckgo.scss */
+.results-wrapper #links .__avira__search_block {
+  position: relative;
+  left: 0px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+/* line 1, ../../../../tmp/firefox/css/content/engines/google.scss */
+#res h3.r {
+  overflow: visible !important;
+}
+
+/* line 5, ../../../../tmp/firefox/css/content/base/search.scss */
+*:hover > .__avira__search_block {
+  opacity: 1.0;
+}
+
+/* line 9, ../../../../tmp/firefox/css/content/base/search.scss */
+.__avira__search_block {
+  display: inline-block !important;
+  width: 15px;
+  height: 20px;
+  background-size: cover;
+  left: -25px;
+  position: absolute;
+  cursor: pointer;
+  vertical-align: middle;
+  background-size: 100% 75%;
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
+
+/* line 3, ../../../../tmp/firefox/css/content/search.scss */
+.__avira__search_block {
+  background-image: url("../../img/serp_info_safe.svg");
+}
+
+/* line 7, ../../../../tmp/firefox/css/content/search.scss */
+.__avira__search_block.__avira__info-danger {
+  background-image: url("../../img/serp_info_unsafe.svg");
+}
