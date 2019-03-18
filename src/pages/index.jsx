@@ -160,7 +160,7 @@ export default ({data}) => {
                         mountainbike), meeting with friends and watching more Netflix. I love
                         figuring
                         new things out, which is why the university is the right place to be for me.
-                        Here I learn new things about physics and math and learn that I already now
+                        Here I learn new things about physics and math and learn that I already know
                         most
                         of the stuff in information technology.
                     </AboutDesc>
