@@ -19,6 +19,10 @@ const Imprint = () => (
             This page is based on the following Gatsby Starter: <a
             href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">https://github.com/LekoArts/gatsby-starter-portfolio-cara</a><br/>
             The data from the "Skills" section is fetched from the <a href="https://developer.github.com/v3/">GitHub API</a>.
+            This data is calculated using the total size of GitHub
+            repositories. This does not necessarily display the actual skill regarding
+            that language. Also note that the data is displayed using a logarithmic
+            scale.
             <h2>Disclaimer</h2>
             Accountability for content<br/>
             The contents of our pages have been created with the utmost care. However, we cannot

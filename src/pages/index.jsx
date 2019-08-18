@@ -55,7 +55,7 @@ const ContactText = styled.p`
 `
 
 const SkillsText = styled.p`
-  ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
+  ${tw`text-grey-light font-sans text-xl md:pt-10 lg:text-2xl`};
 `
 
 const Footer = styled.footer`
@@ -69,33 +69,43 @@ let age = ((today - birthday) / 1000 / 60 / 60 / 24 / 365).toFixed(1);
 let googleOptions = {
     'backgroundColor': 'transparent',
     'vAxis': {
-        title: 'Repository count',
         textPosition: 'none',
         gridlines: {
             color: 'transparent'
-        }
+        },
+        scaleType: 'log',
+        textStyle: {color: '#dae4e9'},
+        titleTextStyle: {color: '#dae4e9'}
     },
-    'hAxis': {title: 'Language'},
+    'hAxis': {
+        textStyle: {color: '#dae4e9'},
+        titleTextStyle: {color: '#dae4e9'}
+    },
     'legend': 'none'
 };
 
 export default ({data}) => {
     console.log(data);
-    let langs = {};
-    let googleData = [["Language", "Count", {role: "style"}]];
+    let langSize = {};
+    let langCounts = {};
+    let googleData = [["Language", "Count", {role: "style"}, {role: 'tooltip', type: 'string'}]];
     data.allInternalGithub.edges.forEach(node => {
         let lang = node.node["language"];
-        if (lang !== null && lang !== undefined) {
-            if (langs.hasOwnProperty(lang))
-                langs[lang]++;
-            else
-                langs[lang] = 1;
+        let size = node.node["size"];
+        if (lang !== null && lang !== undefined && size !== null && size !== undefined) {
+            if (langSize.hasOwnProperty(lang)) {
+                langSize[lang] += parseInt(size);
+                langCounts[lang]++;
+            } else {
+                langSize[lang] = parseInt(size);
+                langCounts[lang] = 1;
+            }
         }
     });
 
-    for (let lang in langs)
-        if (langs.hasOwnProperty(lang))
-            googleData.push([lang, parseInt(langs[lang]), '#5bffde']);
+    for (let lang in langSize)
+        if (langSize.hasOwnProperty(lang))
+            googleData.push([lang, parseInt(langSize[lang]), '#5bffde', 'Repositories: ' + langCounts[lang] + '; Total size: ' + langSize[lang]]);
     return (
         <>
             <Layout/>
@@ -160,21 +170,17 @@ export default ({data}) => {
                         mountainbike), meeting with friends and watching more Netflix. I love
                         figuring
                         new things out, which is why the university is the right place to be for me.
-                        Here I learn new things about physics and math and learn that I already now
-                        most
-                        of the stuff in information technology.
+                        Here I learn new things about physics and math and learn that I already know
+                        most of the stuff taught in information technology.
                     </AboutDesc>
                 </About>
                 <Skills offset={4}>
                     <Title>Skills</Title>
-                    <SkillsText id="Skills">
-                        <Chart chartType="ColumnChart"
-                               width="100%"
-                               height="400px"
-                               id="SkillsChart"
-                               data={googleData}
-                               options={googleOptions}/>
-                    </SkillsText>
+                    <Chart chartType="ColumnChart"
+                           width="100%"
+                           height="500px"
+                           data={googleData}
+                           options={googleOptions}/>
                 </Skills>
                 <Contact offset={5}>
                     <Inner>
@@ -201,6 +207,7 @@ export const query = graphql`
     edges {
       node {
         language
+        size
       }
     }
   }

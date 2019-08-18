@@ -15,7 +15,7 @@ const Skills = ({children, offset}) => (
             <UpDown>
                 <SVG icon="box" hiddenMobile width={6} fill={colors["grey-light"]} left="50%"
                      top="75%"/>
-                <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%"
+                <SVG icon="upDown" hiddenMobile width={8} fill={colors['pink']} left="70%"
                      top="20%"/>
                 <SVG icon="triangle" width={8} stroke={colors['grey-darkest']} left="25%" top="5%"/>
                 <SVG icon="upDown" hiddenMobile width={24} fill={colors.orange} left="80%"
@@ -30,7 +30,7 @@ const Skills = ({children, offset}) => (
                      top="10%"/>
             </UpDownWide>
             <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%"/>
-            <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="70%" top="60%"/>
+            <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="20%" top="65%"/>
             <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%"/>
             <SVG icon="box" width={12} fill={colors['grey-darkest']} left="30%" top="40%"/>
             <SVG icon="hexa" width={8} stroke={colors.yellow} left="80%" top="70%"/>
