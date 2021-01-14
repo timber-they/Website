@@ -13,15 +13,16 @@ module.exports = {
             resolve: 'gatsby-source-apiserver',
             options: {
                 typePrefix: 'internal__',
-                url: 'https://api.github.com/user/repos?visibility=all?type=all',
-                method: 'get',
-                headers: {
-                    'Authorization': 'token c741c596b0a0597683201917b3fd1ddf38ab13f6'
-                },
-                name: 'github',
-                localSave: true,
-                path: `${__dirname}/src/`,
-                verboseOutput: true
+                entitiesArray: [{
+                    url: 'https://api.github.com/user/repos?per_page=100',
+                    method: 'get',
+                    headers: {
+                        'Authorization': 'token c7193c20268a8a5b3001df59a4f25de2d5af6d43'
+                    },
+                    name: 'github',
+                }],
+                verboseOutput: true,
+                refetchInterval: 60
             }
         },
         'gatsby-plugin-react-helmet',

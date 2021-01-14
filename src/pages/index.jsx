@@ -14,9 +14,10 @@ import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
+import Skills from "../views/Skills";
+import Chess from "../views/Chess";
 
 import avatar from '../images/avatar.jpg'
-import Skills from "../views/Skills";
 
 import Chart from "react-google-charts";
 
@@ -109,7 +110,7 @@ export default ({data}) => {
     return (
         <>
             <Layout/>
-            <Parallax pages={6}>
+            <Parallax pages={7}>
                 <Hero offset={0}>
                     <BigTitle>
                         Hello, <br/> I'm Timo Borner.
@@ -182,7 +183,13 @@ export default ({data}) => {
                            data={googleData}
                            options={googleOptions}/>
                 </Skills>
-                <Contact offset={5}>
+                <Chess offset={5}>
+                	<Title>Chess</Title>
+                	<center>
+                		<iframe src="https://lichess.org/embed/xAYwv7FH#88?theme=maple&bg=dark" width={600} height={397} frameBorder={0} Title="A Blitz win with a Bong Cloud variant"></iframe>
+                	</center>
+                </Chess>
+                <Contact offset={6}>
                     <Inner>
                         <Title>Get in touch</Title>
                         <ContactText>
