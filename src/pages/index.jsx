@@ -186,7 +186,7 @@ export default ({data}) => {
                 <Chess offset={5}>
                 	<Title>Chess</Title>
                 	<center>
-                		<iframe src="https://lichess.org/embed/xAYwv7FH#88?theme=maple&bg=dark" width={600} height={397} frameBorder={0} Title="A Blitz win with a Bong Cloud variant"></iframe>
+                		<iframe src="https://lichess.org/embed/O2kIngFp#56?theme=maple&bg=dark" width={600} height={397} frameBorder={0} Title="A classical game"></iframe>
                 	</center>
                 </Chess>
                 <Contact offset={6}>
@@ -197,7 +197,7 @@ export default ({data}) => {
                         </ContactText>
                     </Inner>
                     <Footer>
-                        &copy; 2019 by Timo Borner.{' '}
+                        &copy; 2021 by Timo Borner.{' '}
                         Checkout <a href="https://www.lekoarts.de">LekoArts</a>.<br/>
                         <Link to="/Imprint/">Imprint</Link>
                     </Footer>
