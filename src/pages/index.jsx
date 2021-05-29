@@ -64,7 +64,7 @@ const Footer = styled.footer`
 `
 
 let today = new Date();
-let birthday = new Date(2000, 5, 25, 11, 11, 0, 0);
+let birthday = new Date(2000, 4, 25, 11, 11, 0, 0);
 let age = ((today - birthday) / 1000 / 60 / 60 / 24 / 365).toFixed(1);
 
 let googleOptions = {
