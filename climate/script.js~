@@ -1,0 +1,6 @@
+fetch('https://global-warming.org/api/temperature-api')
+.then(response => response.json())
+.then(data => {
+    console.log(data.result.map(tuple => {time: tuple.time, temp: (tuple.station + tuple.land) / 2});
+    document.getElementById("content").innerHTML = JSON.stringify(data);
+});
