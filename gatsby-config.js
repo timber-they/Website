@@ -17,7 +17,7 @@ module.exports = {
                     url: 'https://api.github.com/user/repos?per_page=100',
                     method: 'get',
                     headers: {
-                        'Authorization': 'token c7193c20268a8a5b3001df59a4f25de2d5af6d43'
+                        'Authorization': 'token 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'
                     },
                     name: 'github',
                 }],
